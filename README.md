@@ -96,7 +96,6 @@ ggplot(penguins, aes(species, fill = species)) +
   scale_fill_taylor(palette = "folklore", guide = "none")
 ```
 
-<img src="man/figures/README-example-fill2-1.png" width="100%" />
 
 ## Palettes
 
