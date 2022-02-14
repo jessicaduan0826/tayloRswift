@@ -47,7 +47,6 @@ ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
   theme_minimal()
 ```
 
-<img src="man/figures/README-example-default-1.png" width="100%" />
 
 ### Choose a different palette
 
@@ -61,8 +60,6 @@ ggplot(penguins, aes(bill_depth_mm, bill_length_mm, color = species)) +
   theme_minimal()
 ```
 
-<img src="man/figures/README-example-palette-1.png" width="100%" />
-
 ### Color by numeric variable
 
 Be content with a palette based on
@@ -74,8 +71,6 @@ ggplot(penguins , aes(bill_depth_mm, bill_length_mm,color = bill_length_mm)) +
   scale_color_taylor(discrete = FALSE, palette ="fearless")+
   theme_minimal()
 ```
-
-<img src="man/figures/README-color-numeric-1.png" width="100%" />
 
 ### Fill by discrete variable
 
@@ -89,7 +84,6 @@ ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
   scale_fill_taylor(palette = "lover", guide = "none")
 ```
 
-<img src="man/figures/README-example-fill-1.png" width="100%" />
 
 Or if you prefer modern Swift,
 [Folklore](https://en.wikipedia.org/wiki/Folklore_(Taylor_Swift_album))
